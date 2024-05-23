@@ -23,7 +23,7 @@ def resource_dictionary(path="", resource="vpc") -> dict:
 
 
 def main() -> None:
-    test = resource_dictionary(path="/Users/ryancasey/projects")
+    test = resource_dictionary(path="")
 
     for key, value in test.items():
         print(key, value)
